@@ -1,28 +1,28 @@
 This repository contains numerous numerical methods implemented in MATLAB to accomplish different tasks. Below is a list of the files and their purpose.
 
 
-### Finite DIfference Methods folder
+### Finite Difference Methods folder
 
-This folder contains various finite difference method schemes. 
-BTCS - Backwards finite difference in time, centered difference in space.
-CSCS - 2D Centered difference in space.
-CTCS - Centered differences in both time and space.
-FTBS - Forward difference in time and backward difference in space.
-FTCS - Forward difference in time and centered difference in space.
-FTFS - Forward dfference in time and space.
+This folder contains various finite difference method schemes.  
+BTCS - Backwards finite difference in time, centered difference in space.  
+CSCS - 2D Centered difference in space.  
+CTCS - Centered differences in both time and space.  
+FTBS - Forward difference in time and backward difference in space.  
+FTCS - Forward difference in time and centered difference in space.  
+FTFS - Forward dfference in time and space.  
 
 ### Ising.m
-
+This script uses an Ising model to simulate the magnetiziation of a metal. It compares many metrics of the model such as magnetization, specific heat, energy, magnetic susceptibility, and temperature.
 
 ### EandRK.m
 This function solves the given differential equation using both Euler and Runge-Kutta 4 algorithms. 
 
 
 ### MetropolisHastings.m
-
+This script uses the Metropolis-Hastings algorithm to generate pseudo-random numbers from a given distribution. It then uses a Chi-Square test to see how close the generated numbers are to the given distribution.
 
 ### RejectionAlg.m
-
+This script uses the Rejection algorithm to generate pseudo-random numbers from a given distribution. It then uses a Chi-Square test to see how close the generated numbers are to the given distribution.
 
 ### lagrangeIP.m
 This function uses Lagrange interpolation on the values of f to find a function y with xi number of values.
